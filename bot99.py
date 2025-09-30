@@ -7,9 +7,11 @@ import sqlite3
 import time
 import logging
 from typing import List
+import telebot
 from telebot.types import (
     InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardRemove, InputMediaPhoto
 )
+
 
 # ----------------- CONFIG -----------------
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "8104847586:AAH22P0YIDtm02mNVzw10GcKc7TabfGka20")
