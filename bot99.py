@@ -7,7 +7,6 @@ import sqlite3
 import time
 import logging
 from typing import List
-import telebot
 from telebot.types import (
     InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardRemove, InputMediaPhoto
 )
