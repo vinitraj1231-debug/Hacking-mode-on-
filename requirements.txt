@@ -1,1 +1,7 @@
-pip install pyTelegramBotAPI
+python-telegram-bot==20.7
+pyrogram==2.0.106
+tgcrypto==1.2.5
+fastapi==0.115.0
+uvicorn==0.30.1
+requests==2.31.0
+python-dotenv==1.0.1
