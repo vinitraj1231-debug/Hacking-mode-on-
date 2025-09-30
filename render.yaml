@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: bot99
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot99.py
+    plan: free
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      
